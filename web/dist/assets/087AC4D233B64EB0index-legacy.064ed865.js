@@ -1,0 +1,4 @@
+/*! 
+ Build based on gin-vue-admin 
+ Time : 1790577592000 */
+System.register(["./087AC4D233B64EB0index-legacy.0a9d08ae.js"],function(e,n){"use strict";var t;return{setters:[function(e){t=e.a$}],execute:function(){var n="_RepeatClick";e("v",{beforeMount:function(e,o){var u,r,i=o.value,a=t(i)?{}:i,c=a.interval,s=void 0===c?100:c,v=a.delay,d=void 0===v?600:v,l=function(){return t(i)?i():i.handler()},f=function(){r&&(clearTimeout(r),r=void 0),u&&(clearInterval(u),u=void 0)},m=function(e){0===e.button&&(f(),l(),document.addEventListener("mouseup",f,{once:!0}),r=setTimeout(function(){u=setInterval(function(){l()},s)},d))};e[n]={start:m,clear:f},e.addEventListener("mousedown",m)},unmounted:function(e){if(e[n]){var t=e[n],o=t.start,u=t.clear;o&&e.removeEventListener("mousedown",o),u&&(u(),document.removeEventListener("mouseup",u)),e[n]=null}}})}}});

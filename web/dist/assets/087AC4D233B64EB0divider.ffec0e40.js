@@ -1,0 +1,4 @@
+/*! 
+ Build based on gin-vue-admin 
+ Time : 1790577592000 */
+import{A as e,a3 as t,C as s,q as r,v as a,D as i,o,c as l,n,F as d,J as c,f as v,G as u,K as p}from"./087AC4D233B64EB0index.c4f98c2d.js";const f=p(s(r({name:"ElDivider",__name:"divider",props:e({direction:{type:String,values:["horizontal","vertical"],default:"horizontal"},contentPosition:{type:String,values:["left","center","right"],default:"center"},borderStyle:{type:t(String),default:"solid"}}),setup(e){const t=e,s=a("divider"),r=i(()=>s.cssVar({"border-style":t.borderStyle}));return(e,t)=>(o(),l("div",{class:n([d(s).b(),d(s).m(e.direction)]),style:u(r.value),role:"separator"},[e.$slots.default&&"vertical"!==e.direction?(o(),l("div",{key:0,class:n([d(s).e("text"),d(s).is(e.contentPosition)])},[c(e.$slots,"default")],2)):v("v-if",!0)],6))}}),[["__file","/home/runner/work/element-plus/element-plus/packages/components/divider/src/divider.vue"]]));export{f as E};

@@ -1,0 +1,4 @@
+/*! 
+ Build based on gin-vue-admin 
+ Time : 1790577592000 */
+import{s as e}from"./087AC4D233B64EB0index.c4f98c2d.js";const t=t=>e({url:"/banner/createBanner",method:"post",data:t}),a=t=>e({url:"/banner/deleteBanner",method:"delete",data:t}),r=t=>e({url:"/banner/updateBanner",method:"put",data:t}),o=t=>e({url:"/banner/getBannerList",method:"get",params:t}),d=t=>e({url:"/moments/createCategory",method:"post",data:t}),m=t=>e({url:"/moments/deleteCategory",method:"delete",data:t}),s=t=>e({url:"/moments/updateCategory",method:"put",data:t}),n=()=>e({url:"/moments/getCategoryList",method:"get"}),u=t=>e({url:"/moments/createCopywriting",method:"post",data:t}),l=t=>e({url:"/moments/deleteCopywriting",method:"delete",data:t}),p=t=>e({url:"/moments/updateCopywriting",method:"put",data:t}),g=t=>e({url:"/moments/getCopywritingList",method:"get",params:t});export{n as a,g as b,t as c,a as d,m as e,d as f,o as g,s as h,l as i,u as j,p as k,r as u};
