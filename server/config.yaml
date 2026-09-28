@@ -1,0 +1,199 @@
+aliyun-oss:
+    endpoint: ""
+    access-key-id: ""
+    access-key-secret: ""
+    bucket-name: ""
+    bucket-url: ""
+    base-path: ""
+autocode:
+    server-model: /model/%s
+    server-router: /router/%s
+    server: /server
+    server-api: /api/v1/%s
+    server-plug: /plugin/%s
+    server-initialize: /initialize
+    root: /go/src/github.com/flipped-aurora/gin-vue-admin
+    web-table: /view
+    web: /web/src
+    server-service: /service/%s
+    server-request: /model/%s/request/
+    web-api: /api
+    web-form: /view
+    transfer-restart: true
+aws-s3:
+    bucket: ""
+    region: ""
+    endpoint: ""
+    secret-id: ""
+    secret-key: ""
+    base-url: ""
+    path-prefix: ""
+    s3-force-path-style: false
+    disable-ssl: false
+captcha:
+    key-long: 6
+    img-width: 240
+    img-height: 80
+    open-captcha: 0
+    open-captcha-timeout: 3600
+cors:
+    mode: allow-all
+    whitelist: []
+db-list: []
+email:
+    to: ""
+    from: ""
+    host: ""
+    secret: ""
+    nickname: ""
+    port: 0
+    is-ssl: false
+excel:
+    dir: ""
+hua-wei-obs:
+    path: ""
+    bucket: ""
+    endpoint: ""
+    access-key: ""
+    secret-key: ""
+jwt:
+    signing-key: e55e5bca-e2f8-4e73-8ced-4808eca965c2
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: qmPlus
+local:
+    path: uploads/file
+    store-path: uploads/file
+mongo:
+    coll: ""
+    options: ""
+    database: ""
+    username: ""
+    password: ""
+    auth-source: ""
+    min-pool-size: 0
+    max-pool-size: 0
+    socket-timeout-ms: 0
+    connect-timeout-ms: 0
+    is-zap: false
+    hosts: []
+mssql:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 0
+    max-open-conns: 0
+    singular: false
+    log-zap: false
+mysql:
+    prefix: ""
+    port: "3306"
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db-name: gva
+    username: gva
+    password: ci5kbnyy65FecL3R
+    path: 39.105.105.225
+    engine: ""
+    log-mode: error
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+oracle:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 0
+    max-open-conns: 0
+    singular: false
+    log-zap: false
+pgsql:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 0
+    max-open-conns: 0
+    singular: false
+    log-zap: false
+qiniu:
+    zone: ""
+    bucket: ""
+    img-path: ""
+    access-key: ""
+    secret-key: ""
+    use-https: false
+    use-cdn-domains: false
+redis:
+    addr: 39.105.105.225:6379
+    password: car1234!@#$.
+    db: 0
+sqlite:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 0
+    max-open-conns: 0
+    singular: false
+    log-zap: false
+system:
+    env: public
+    db-type: mysql
+    oss-type: local
+    router-prefix: ""
+    addr: 8088
+    iplimit-count: 15000
+    iplimit-time: 3600
+    use-multipoint: false
+    use-redis: true
+    use-mongo: false
+tencent-cos:
+    bucket: ""
+    region: ""
+    secret-id: ""
+    secret-key: ""
+    base-url: ""
+    path-prefix: ""
+timer:
+    detail:
+        - comparefield: created_at
+          interval: 2160h
+          tablename: sys_operation_records
+        - comparefield: created_at
+          interval: 168h
+          tablename: jwt_blacklists
+    spec: '@daily'
+    start: true
+zap:
+    level: info
+    prefix: '[github.com/flipped-aurora/gin-vue-admin/server]'
+    format: console
+    director: log
+    encode-level: LowercaseColorLevelEncoder
+    stacktrace-key: stacktrace
+    max-age: 0
+    show-line: true
+    log-in-console: true

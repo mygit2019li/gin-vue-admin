@@ -1,0 +1,2 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.826	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	accept tcp [::]:8088: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:55.746	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	accept tcp [::]:8088: use of closed network connection

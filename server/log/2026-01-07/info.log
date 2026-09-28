@@ -1,0 +1,10 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 09:41:50.627	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 09:41:50.692	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/redis.go:24	redis connect ping response:	{"pong": "PONG"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 09:41:50.713	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/router.go:69	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 09:41:50.714	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/router.go:106	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 09:41:50.714	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8088"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.756	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.808	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/redis.go:24	redis connect ping response:	{"pong": "PONG"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.823	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/router.go:69	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.823	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/initialize/router.go:106	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026/01/07 - 11:09:42.824	[34minfo[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8088"}

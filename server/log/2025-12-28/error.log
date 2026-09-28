@@ -1,0 +1,7 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 08:55:30.023	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 08:58:37.313	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 08:59:00.504	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 09:19:05.114	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 09:59:35.734	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 12:46:42.364	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2025/12/28 - 12:50:58.043	[31merror[0m	/Users/lipeng/www/zhengjianzhao/cxx/gin-vue-admin/server/core/server.go:49	net.Listen error: listen tcp :8888: bind: address already in use
